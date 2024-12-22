@@ -1,1 +1,1 @@
-MS Excel flat API.
+MS Excel flat API for PureBasic.
