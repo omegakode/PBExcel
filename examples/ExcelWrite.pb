@@ -36,10 +36,9 @@ Procedure main()
 				Continue
 			EndIf	
 			
-; 			Excel_Range_Put_Value2(vCellRange\pdispVal, COM_VarString(@vStr, "Item" + Str(iRow) + "-" + Str(iCol)))
-			Excel_Range_Put_Value2(vCellRange\pdispVal, COM_VarLong(@vLong, 1))
+			Excel_Range_Put_Value2(vCellRange\pdispVal, COM_VarString(@vStr, "Item" + Str(iRow) + "-" + Str(iCol)))
 
-; 			COM_VarClear(@vStr)
+			COM_VarClear(@vStr)
 			COM_VarClear(@vCellRange) ; = vCellRange\pdispVal\Release()
 		Next
 	Next 
